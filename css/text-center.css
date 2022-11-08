@@ -1,0 +1,22 @@
+@keyframes filling {
+    from {
+        background-position: center 25%;
+    }
+
+    to {
+        background-position: center 50%;
+    }
+}
+
+.container-text {
+    background-image: url('../images/bg-2.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: "Bungee", cursive;
+    animation: filling 3s ease forwards;
+    text-align: center;
+    background-size: auto;
+}

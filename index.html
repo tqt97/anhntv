@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+
+    <head>
+        <TITLE>Go Dasom - FromWithLove</TITLE>
+        <meta name="Generator" content="Go Dasom - FromWithLove">
+        <meta name="Author" content="tuantq">
+        <meta name="Keywords" content="For women, never miss an opportunity to tell them they’re beautiful">
+        <meta name="Description" content="For women, never miss an opportunity to tell them they’re beautiful">
+        <link rel="shortcut icon" href="./images/favicon.jpg"
+            type="image/x-icon">
+        <meta property="og:title" content="Go Dasom - FromWithLove">
+        <meta property="og:image" content="./images/bg.jpg">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/text-center.css">
+        <link rel="stylesheet" href="./css/heart.css">
+        <link rel="stylesheet" href="./css/heart-fly.css">
+
+    </head>
+
+    <body onclick="play()">
+        <audio id="my_audio" preload="none">
+            <source src="./audio/audio.ogg" type="audio/ogg">
+            <source src="./audio/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <canvas id="pinkboard">
+            <canvas id="pinkboard">
+            </canvas>
+        </canvas>
+
+        <div class="effect-text container-text" id='text'>
+            Go Dasom
+        </div>
+        <div class="bg_heart"></div>
+
+        <!-- js -->
+        <script src="js/heart.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/heart-fly.js"></script>
+        <script>
+            $('#text').hide().delay(500).fadeIn(3000);
+        </script>
+        <script>
+            function play () {
+                var audio = document.getElementById("my_audio");
+                audio.play();
+            }
+        </script>
+    </body>
+
+</html>
